@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/producto.css">
+    <link rel="stylesheet" href="css/reseña.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <title>BA Proyecto</title>
+  </head>
+  <body>
+    <header>
+      <div class="logo"><a href="index.html"><img src="img/optica-tigre.png" alt="" /></a></div>
+      <div class="bars">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+      </div>
+
+      <nav class="nav-bar">
+        <ul>
+          <li>
+            <a href="#" class="active">INICIO</a>
+          </li>
+          <li>
+            <a href="pages/productos.html" class="active">PRODUCTOS</a>
+          </li>
+          <li>
+            <a href="pages/contacto.html">CONTACTO</a>
+          </li>
+          <!-- <li>
+            <a href="#"><img id="carrito" src="img/Carrito.png" alt=""></a>
+          </li> -->
+        </ul>
+      </nav>
+    </header>
+
+    <section class="slider">
+      <img src="img/slider_2.png" alt="">
+    </section>
+
+    <section class="productos_destacados">
+      <h1>Productos destacados</h1>
+      
+      <div class="product-container">
+        <div class="product">
+            <img src="../img/imagen1.png" alt="Producto 1">
+            <h3>Producto 1</h3>
+            <p>$19.99</p>
+            <button>Agregar al carrito</button>
+            <button id="ver">Ver más</button>
+        </div>
+        <div class="product">
+            <img src="../img/imagen2.png" alt="Producto 2">
+            <h3>Producto 2</h3>
+            <p>$29.99</p>
+            <button>Agregar al carrito</button>
+            <button id="ver">Ver más</button>
+        </div>
+        <div class="product">
+            <img src="../img/imagen3.png" alt="Producto 3">
+            <h3>Producto 3</h3>
+            <p>$39.99</p>
+            <button>Agregar al carrito</button>
+            <button id="ver">Ver más</button>
+        </div>
+        <div class="product">
+            <img src="../img/imagen3.png" alt="Producto 3">
+            <h3>Producto 3</h3>
+            <p>$39.99</p>
+            <button>Agregar al carrito</button>
+            <button id="ver">Ver más</button>
+        </div>
+       
+            
+        </div>
+    </section>
+
+    <!-- <section class="reseñas">
+      <h1>reseñas</h1>
+        <div class="product0">
+            <img src="../img/imagen1.png" alt="Producto 1">
+            <h3>Producto 1</h3>
+            <p>$19.99</p>
+            <button>Agregar al carrito</button>
+            <button class="ver_mas">Ver más</button>
+        </div>
+        <div class="product0">
+            <img src="../img/imagen1.png" alt="Producto 1">
+            <h3>Producto 1</h3>
+            <p>$19.99</p>
+            <button>Agregar al carrito</button>
+            <button class="ver_mas">Ver más</button>
+        </div>
+        <div class="product0">
+            <img src="../img/imagen1.png" alt="Producto 1">
+            <h3>Producto 1</h3>
+            <p>$19.99</p>
+            <button>Agregar al carrito</button>
+            <button class="ver_mas">Ver más</button>
+        </div>
+    </section> -->
+
+    <section class="reseñas">
+        <!-- <h2>Reseñas</h2> -->
+        <div class="reseñas-grid">
+            <div class="reseña">
+                <img src="img/avatar.jpeg" alt="Foto de la reseña 1">
+                <h3>Nombre1</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            <div class="reseña">
+                <img src="img/avatar.jpeg" alt="Foto de la reseña 2">
+                <h3>Nombre1</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            <div class="reseña">
+              <img src="img/avatar.jpeg" alt="Foto de la reseña 3">
+              <h3>Nombre1</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
+
+    <footer>
+      <div class="footer-content" id="contacto">
+        <div class="contact-info">
+          <p>Ubicación:</p>
+          <p>Av. Cazón 1302, Tigre, Provincia de Buenos Aires</p>
+          <p></p>
+          <p>Teléfono:</p>
+          <p>011 4749-1892</p>
+        </div>
+        <div class="social-icons">
+          <a href="https://www.instagram.com/opticatigre/?hl=es" target="_blank"
+            ><img class="icono" src="../img/instagram.png" alt="Instagram"
+          /></a>
+          <a href="https://www.facebook.com/OpticaTigre/" target="_blank"
+            ><img class="icono" src="../img/facebook.png" alt="Facebook"
+          /></a>
+          <a href="https://wa.me/+5491536912714" target="_blank"
+            ><img src="../img/whatsapp.png" alt="Twitter"
+          /></a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/e68d1011c4.js" crossorigin="anonymous"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
